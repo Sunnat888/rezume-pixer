@@ -1,0 +1,638 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.item-navbar{
+    margin-left: auto;
+}
+
+.item-div {
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ol,ul{
+    display: flex;
+    list-style: none;
+    margin-left: 400px;
+}
+
+.item-img{
+    width: 60px;
+    height: 50px;
+}
+
+.item-li{
+    padding: 10px;
+    position: relative;
+}
+
+.item-a{
+    font-size:17px;
+}
+
+.nav-link{
+    margin-right: 10px;
+}
+
+.nav-item.tel{
+    width: 157px;
+    height: 30px;
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.nav-item.tel a{
+    color: white;
+}
+
+.nav-item.tel:hover{
+    border: 2px solid blue;
+    background-color: transparent;
+    color: blue;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.nav-item.tel a:hover{
+    color: blue;
+}
+
+.iframe-list{
+    width: 458px;
+    height: 258px;
+    margin-left: 775px;
+    margin-top: 80px;
+}
+
+.list-p{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+.item-p{
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.button-list:hover{
+    border: 2px solid rgb(0,110,255);
+    background-color: transparent;
+    color: rgb(0,110,255);
+    border-radius: 5px;
+}
+
+.button-list{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border-radius: 5px;
+    border: 2px solid rgb(0,110,255);
+    margin-top: 280px;
+    margin-left: 100px;
+}
+
+.main-list{
+    width: 1340px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.item-pic{
+    margin-top: 160px;
+    margin-left: 620px;
+    font-size: 30px;
+}
+
+
+.item-lorem{
+    margin-top: 10px;
+    margin-left: 400px;
+    font-size: 17px;
+}
+
+.card-img{
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 90px; 
+}
+
+.img-main{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+ 
+.card-p{
+  margin-top: 260px;
+  margin-left: 100px;
+  font-size: 19px;   
+}
+
+.card-bot{
+    position: absolute;
+    width: 340px;
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 500px; 
+}
+
+.img-bot{
+    margin-top: 40px;
+    margin-left: 37px;
+}
+
+.bot-teleg{
+    margin-top: 30px;
+    margin-left: 115px;
+    font-size: 19px;
+}
+
+.card-smm{
+    position: absolute;
+    width: 340px;
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: rgb(255,255,255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 930px;
+}
+
+.img-smm{
+    margin-top: 40px;
+    margin-left: 57px;
+}
+
+.smm-p{
+    margin-top: 25px;
+    margin-left: 115px;
+    font-size: 19px;
+}
+
+.card-dizayn{
+    position: absolute;
+    width: 340px;
+    height: 300px;
+    margin-top: 420px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 270px;
+}
+
+.img-grafik{
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 19px;
+}
+
+.grafik-p{
+    margin-top: 25px;
+    margin-left: 118px;
+    font-size: 19px;
+}
+
+.card-crm{
+    position: absolute;
+    width: 340px;
+    height: 300px;
+    margin-top: 420px;
+    border-radius: 5px;
+    background-color: rgb(255,255,255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 700px;
+}
+
+.img-crm{
+    margin-top: 40px;
+    margin-left: 65px;
+    font-size: 19px;
+}
+
+.crm-p{
+    margin-top: 25px;
+    margin-left: 118px;
+    font-size: 19px;
+}
+
+.button-ltm{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(50, 104, 205);
+    border-radius: 5px;
+    margin-top: 800px;
+    margin-left: 440px;
+    color: white;
+}
+
+.item-hizmat{
+    color: blue;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.lorem-p{
+    margin-top: 120px;
+    margin-left: 550px;
+}
+
+.p-ppp{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.img-talaba{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.imggg-pp{
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 700px;
+}
+            
+.imggg-p{
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 700px;
+}
+
+.img-girl{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 800px;
+}
+
+.img-active{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 330px;
+}
+
+.img-positive{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 330px;
+}   
+
+.img-jkl{
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 310px;
+}
+
+.img-activee{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 730px;
+}
+
+.img-positivee{
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 730px;
+}   
+
+.img-img{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 730px;
+}
+
+.img-cap{
+    position: absolute;
+    margin-top: 970px;
+    margin-left: 310px;
+}
+
+.img-all{
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 310px;
+}
+
+.img-img-i{
+    position: absolute;
+    margin-top: 1120px;
+    margin-left: 310px;
+}
+
+.img-capp{
+  position: absolute;
+  margin-top: 1235px;
+  margin-left: 730px;
+}
+
+.img-alll{
+    position: absolute;
+    margin-top: 1265px;
+    margin-left: 730px;
+}
+
+.button-b{
+    position: absolute;
+    margin-top: 1455px;
+    margin-left: 550px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.section-footer{
+    height: 480px;
+    background-color: aqua;
+}
+
+
+.p-pic{
+    width: 100%;
+    color: white;
+    margin-left: 440px;
+    margin-top: 1600px;
+}
+
+.footer-p{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 320px;
+}
+
+.card-name{
+    background-color: #f0e8e8;
+    border-radius: 5px;
+    margin-left: 530px;
+    margin-top: 30px;
+    width: 270px;
+    height: 300px;
+}
+
+.name-input{
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgb(228, 227, 227);
+}
+
+.text-input{
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgb(228, 227, 227);
+}
+
+
+.password-input{
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgb(228, 225, 225);
+}
+
+.input2{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(247, 244, 244);
+    border-radius:10px;
+    font-size:20px;
+    margin-top: 20px;
+    margin-left: 10px;
+   /* position: absolute; */
+
+}
+
+.card-button {
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    border: 2px solid aqua;
+    color: aliceblue;
+}
+
+.card-hhh{
+    position: absolute;
+    background-color: rgb(17, 16, 16);
+    margin-top: 60px;
+    width: 1210px;
+    height: 350px;
+}
+
+
+ .site-pages-link{
+    text-decoration: none;
+    color: #f0e8e8;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container{
+    background-color: #2c2c2c;
+    width: 1300px;
+    margin-left: 25px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container{
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-wrapper{
+    padding-top: 20px;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+li{
+    text-align: center;
+}
+
+.footer-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.footer-item-copyright{
+    margin-right: 100px;
+}
+
+.copyright-title{
+    color: #fff;
+}
+
+.copyright-text{
+    line-height: 150%;
+    width: 320px;
+    color: #fff;
+    font-size: 16.5px;
+}
+
+
+.site-pages{
+    color: #fff;
+    margin-left: 180px;
+}
+
+.site-pages-heading{
+    position: absolute;
+    font-size: 20px;
+    margin-left: -130px;
+}
+
+.site-pages-link{
+    color: #fff;
+    margin-left: 90px;
+    margin-top: -70px;
+    display: flex;
+
+} 
+
+.site-pages-linkk{
+    color: #fff;
+    margin-left: -75px;
+    margin-top: -50px;
+    display: flex;
+    font-size: 18px;
+}
+
+.site-pages-linkkk{
+    color: #fff;
+    margin-left: -70px;
+    margin-top: -20px;
+    display: flex;
+    font-size: 18px;
+}
+
+
+.site-pages-linnk{
+    margin-left: -70px;
+    color: #fff;
+    margin-top: 5px;
+    display: flex;
+    font-size: 18px;
+}
+
+.site-pages-linnnk{
+    margin-left: -70px;
+    color: #fff;
+    margin-top: 35px;
+    display: flex;
+    font-size: 18px;
+}
+
+.site-pages-liink{
+    margin-left: -70px;
+    color: #fff;
+    margin-top: 65px;
+    display: flex;
+    font-size: 18px;
+}
+
+.site-pages-b{
+    display: flex;
+    margin-left: 500px;
+    margin-top: -200px;
+}
+
+.fab-fff{
+    color: #fff;
+    margin-top: 80px;
+    margin-left: 15px;
+    display: flex;
+}
+
+.site-pages-Fasebook{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -80px;
+    color: #fff;
+}
+
+.svg-tel{
+    /* position: absolute; */
+    margin-top: 240px;
+    /* margin-left: -160px; */
+    color: #fff;
+    width: 30px;
+    height: 15px;
+}
+
+.svg-inst{
+    color: #fff;
+    margin-top: 70px;
+    margin-left: -70px;
+}
+
+.site-pages-ins{
+    color: #fff;
+}
